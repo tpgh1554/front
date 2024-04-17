@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+#login {
+  width: 304px;
+  height: 390px;
+  padding: 28px 38px;
+  border: 1px solid black;
+  margin: auto;
+}
+#login button {
+  width: 228px;
+  height: 44px;
+  border: 1px solid #000;
+  background-color: white;
+  font-weight: bold;
+  color: #504444;
+
+}
+#login > p {
+  text-align: center;
+  margin: 20px 0 20px;
+  color: #504444;
+}
+#login input {
+  width: 228px;
+  height: 44px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  background-color: #eaeaea;
+}
+i {
+  /* font-size: 1.1em; */
+  color: red;
+  margin-right: 4px;
+}
+#login button[type="submit"] {
+  background-color: #373f3c;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: normal;
+}
+#forgot {
+  text-align: center;
+  margin-top: 20px;
+}
